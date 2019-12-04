@@ -1,0 +1,39 @@
+{
+    "name": "ervinomueller/cpfcnpj-client",
+    "description": "Client wrapper for cpfcnpj.com.br service",
+    "keywords": ["cpf", "cnpj", "client", "http", "cpfcnpj", "php", "wrapper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ervino Mueller",
+            "homepage": "https://ervinomueller.com",
+            "email": "ervinomueller@outlook.com",
+            "role": "Owner"
+        }
+    ],
+    "homepage": "https://github.com/ervinomueller/cpfcnpj-client",
+    "support": {
+        "email": "ervinomueller@outlook.com",
+        "issues":"https://github.com/ervinomueller/cpfcnpj-client/issues",
+        "wiki":"https://github.com/ervinomueller/cpfcnpj-client",
+        "source":"https://github.com/ervinomueller/cpfcnpj-client",
+        "docs": "https://github.com/ervinomueller/cpfcnpj-client"
+    },
+    "autoload": {
+        "psr-4": {
+            "CpfCnpj\\": "src/CpfCnpj/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.4",
+        "laravel/helpers": "^1.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
