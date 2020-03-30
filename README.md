@@ -16,7 +16,7 @@ Wrapper for https://cpfcnpj.com.br service
 
 Instale utilizando o Composer: 
 
-    composer require ervinomueller/cfpcnpj-client
+    composer require ervinomueller/cpfcnpj-client
   
   
 ## Utilização (CPF)
